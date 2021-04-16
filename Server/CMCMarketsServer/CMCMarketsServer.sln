@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCMarketsServer", "CMCMarketsServer\CMCMarketsServer.csproj", "{1AECEAB8-22A4-4D59-9283-280840095B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AECEAB8-22A4-4D59-9283-280840095B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AECEAB8-22A4-4D59-9283-280840095B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AECEAB8-22A4-4D59-9283-280840095B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AECEAB8-22A4-4D59-9283-280840095B03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2F2498D-AA61-4D94-90F9-5C9D01EB2ADD}
+	EndGlobalSection
+EndGlobal
