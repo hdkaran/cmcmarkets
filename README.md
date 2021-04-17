@@ -15,7 +15,7 @@ This app aims to solve the challenge posed by CMC markets for the Junior Full St
 * For the front-end, navigate to cmcmarkets folder from the command line.
 * run command "npm install" 
 * run command "npm start"
-** If your server is running on a different port than 5000, you will need to change it in the .env file.
+ * If your server is running on a different port than 5000, you will need to change it in the .env file.
 
 Please feel free to contact me if you have any issues running the app. :)
 
