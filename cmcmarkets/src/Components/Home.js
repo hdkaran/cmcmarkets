@@ -39,13 +39,13 @@ export default class Home extends Component {
             </Jumbotron>
           </Row>
           <Row className="justify-content-center">
-            {this.state.products.map((product, index) => (
+             {Object.keys(this.state.products).length!=0?this.state.products.map((product, index) => (
               <Product
                 key={index}
                 prod={product}
                 addToCart={this.props.onAddToCart}
               ></Product>
-            ))}
+            )):<h5>No Data Available. Please check if you have configured the server settings correctly.</h5>}
           </Row>
         </Container>
       </div>
