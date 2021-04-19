@@ -16,7 +16,7 @@ export default class Navigation extends Component {
               Products
             </NavLink>
             <NavLink className="d-inline p-2 bg-dark text-white" to="/cart">
-              Cart {this.props.cartLength} Items
+              Go to Basket - {this.props.cartLength} Items
             </NavLink>
           </Nav>
         </Navbar.Collapse>
