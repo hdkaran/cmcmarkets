@@ -39,7 +39,7 @@ export default class Home extends Component {
             </Jumbotron>
           </Row>
           <Row className="justify-content-center">
-             {Object.keys(this.state.products).length!=0?this.state.products.map((product, index) => (
+             {Object.keys(this.state.products).length!==0?this.state.products.map((product, index) => (
               <Product
                 key={index}
                 prod={product}
